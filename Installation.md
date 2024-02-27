@@ -20,6 +20,6 @@ Si jamais ça aide, ce que j'ai fait pour installer tout ce qui est nécessaire 
 
 Et pour pas avoir de souci pour télécharger certains modèles, dans `train.py` il peut être utile de mettre ça au début:
 
-`import ssl
+```import ssl
 
-ssl._create_default_https_context = ssl._create_unverified_context`
+ssl._create_default_https_context = ssl._create_unverified_context```
