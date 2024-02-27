@@ -2,7 +2,7 @@
 
 Pour exécuter un train.py, utiliser quelque chose comme:
 
-`python id6_train_multi_task.py --data_dir /Data/dataset/appa_real/appa-real-release --graphs_dir ./graphs_test --checkpoint ./checkpoint_test`
+`python train1.py --data_dir /Data/dataset/appa_real/appa-real-release --graphs_dir ./graphs_test --checkpoint ./checkpoint_test`
 
 où `graphs_dir` indique dans quel dossier stocker les résultats, et `checkpoint` où stocker le meilleur modèle.
 
