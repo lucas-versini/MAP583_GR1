@@ -17,3 +17,5 @@ où `graphs_dir` indique dans quel dossier stocker les résultats, et `checkpoin
 `train5.py`: Classification, label smoothing, en ajustant le niveau de smoothing à chaque epoch
 
 `train6.py`: Classification, multi-task (ethnicity, gender, etc.).
+
+`train7.py`: Tracer l'erreur-epsilon (voir DEX) en plus
