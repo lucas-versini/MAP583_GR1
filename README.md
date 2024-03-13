@@ -19,3 +19,7 @@ où `graphs_dir` indique dans quel dossier stocker les résultats, et `checkpoin
 `train6.py`: Classification, multi-task (ethnicity, gender, etc.).
 
 `train7.py`: Tracer l'erreur-epsilon (voir DEX) en plus
+
+`residual_train.py`: Implémentation de la méthode Residual DEX qui permet de dimunier significativement la MAE et l'epsilon-erreur
+
+`residual_train_label.py`: Residual DEX + Label Smoothing
