@@ -12,7 +12,7 @@ où `graphs_dir` indique dans quel dossier stocker les résultats, et `checkpoin
 
 `train3.py`: Régression, loss L1
 
-`train4.py`: Classification, label smoothing
+`train4.py`: Classification, label smoothing gaussien
 
 `train5.py`: Classification, label smoothing, en ajustant le niveau de smoothing à chaque epoch
 
