@@ -24,3 +24,5 @@ où `graphs_dir` indique dans quel dossier stocker les résultats, et `checkpoin
 Je load un modèle préentrainé sur DEX (modèle de train1.py)
 
 `residual_train_label.py`: Residual DEX + Label Smoothing
+
+`TTA.py`: TTA applied to the model given in the demo of the original repositery.
