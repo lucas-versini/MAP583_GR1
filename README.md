@@ -12,8 +12,15 @@ où `graphs_dir` indique dans quel dossier stocker les résultats, et `checkpoin
 
 `train3.py`: Régression, loss L1
 
-`train4.py`: Classification, label smoothing
+`train4.py`: Classification, label smoothing gaussien
 
 `train5.py`: Classification, label smoothing, en ajustant le niveau de smoothing à chaque epoch
 
 `train6.py`: Classification, multi-task (ethnicity, gender, etc.).
+
+`train7.py`: Tracer l'erreur-epsilon (voir DEX) en plus
+
+`residual_train.py`: Implémentation de la méthode Residual DEX qui permet de dimunier significativement la MAE et l'epsilon-erreur. Je diminue le batch size par deux dans defauls pour ne pas avoir CUDA OUT OF MEMORY. 
+Je load un modèle préentrainé sur DEX (modèle de train1.py)
+
+`residual_train_label.py`: Residual DEX + Label Smoothing
